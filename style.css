@@ -1,0 +1,196 @@
+body{
+    font-family: "微軟正黑體";
+    background-color: #f4b543;
+    color: black;
+    margin: 8px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px ;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+header,main{
+    background-color: #ffeecf;
+    border-radius: 15px;
+    padding: 20px;
+    border: 3px solid#000;
+}
+
+.main_section{
+    background-color: #2C749A;
+    color: #ffeecf;
+    border: 3px solid#000;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: end;
+    margin-left: auto;
+}
+
+.profile{
+    
+    margin-right: 20px;
+}
+
+h1{
+    font-size: 45px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.dept{
+    /*font-family: "微軟正黑體";*/
+    font-weight: bold;
+    color: #000;
+}
+
+.motto{
+    font-family: "圓體";
+    font-style: italic;
+    font-weight: bold;
+}
+.nav_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #96654b;
+}
+
+.fb,.ins,.gmail{
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    color: #000 !important;
+    text-decoration: none !important;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 3px solid#000;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.fb,.ins{
+    background-color: #e4543c;
+}
+
+.fb{
+    grid-row: 2/3;
+}
+
+.gmail{
+    background-color: #f4b543;
+    grid-row: 3/4;
+}
+
+.ins{
+    grid-row: 4/5;
+}
+
+.con {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 20px ;
+}
+.info,.ability,.course,.leader,.club{
+    font-weight: bold;
+    color: #000;
+    margin: 5px;
+    padding: 5px 10px;
+    border: 3px solid#000;
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+}
+.info,.course{
+    background-color: #f4b543;
+}
+
+.ability,.club{
+    background-color: #2C749A;
+}
+
+.course{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.caption,.caption1,.caption2{
+    font-size: 25px;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 3px solid#000;
+    border-radius: 20px;
+}
+.course_photo{
+    margin-right: 20px;
+}
+
+.course_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caption{
+    background-color: #2C749A;
+}
+
+.caption1{
+    background-color:#f4b543;
+}
+
+.caption2{
+    background-color: #e4543c;
+}
+
+.group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ability{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.club{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.leader_photo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leader{
+    background-color: #e4543c;
+}
